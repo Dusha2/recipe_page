@@ -1,0 +1,18 @@
+:root {
+    --color-white: #FFF;
+    --color-black: #312E2C;
+    --color-brown: #854632;
+    --color-gray: #5F564D;
+    --color-rose: #7A284E;
+    --color-light-rose: #FFF7FB;
+    --color-light-gray: #E3DDD7;
+
+    --bgc: #F3E5D7;
+
+    --font-family-base: "Outfit", sans-serif;
+    --font-family-title: "Young Serif", serif;
+
+    --row-gap-sections: 32px;
+    --row-gap-title: 24px;
+    --row-gap-list: 8px;
+}
