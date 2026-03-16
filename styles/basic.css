@@ -61,6 +61,11 @@ hr {
     row-gap: var(--row-gap-list);
 }
 
+.list-item-сircle {
+    position: relative;
+    padding-inline-start: 40px;
+}
+
 .list-item-сircle::before {
     content: "";
     width: 4px;
@@ -71,4 +76,16 @@ hr {
     top: 13px;
     left: 8px;
     transform: translateY(-50%);
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
 }

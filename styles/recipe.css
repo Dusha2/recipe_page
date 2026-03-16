@@ -49,11 +49,6 @@
     margin-block-end: 16px;
 }
 
-.preparation-item {
-    position: relative;
-    padding-inline-start: 28px;
-}
-
 .preparation-item::before {
     background-color: var(--color-rose);
 }
@@ -61,15 +56,9 @@
 /* #endregion */
 
 /* #region ingredients section */
-.ingredients-item {
-    position: relative;
-    padding-inline-start: 28px;
-}
-
 .ingredients-item::before {
     background-color: var(--color-brown);
 }
-
 /* #endregion */
 
 /* #region instructions section */

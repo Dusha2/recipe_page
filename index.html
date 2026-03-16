@@ -7,18 +7,23 @@
   <title>Simple Omelette Recipe</title>
 
   <!-- SEO -->
-  <meta name="description" content="An easy and quick omelette recipe perfect for any meal. Made with beaten eggs and optionally filled with cheese, vegetables, or meats.">
+  <meta name="description"
+    content="An easy and quick omelette recipe perfect for any meal. Made with beaten eggs and optionally filled with cheese, vegetables, or meats.">
 
-  <meta property="og:type" content="website">
+  <meta property="og:type" content="article">
   <meta property="og:url" content="https://Dusha2.github.io/recipe_page/">
   <meta property="og:title" content="Simple Omelette Recipe">
-  <meta property="og:description" content="An easy and quick omelette recipe perfect for any meal. Made with beaten eggs and optionally filled with cheese, vegetables, or meats.">
+  <meta property="og:description"
+    content="An easy and quick omelette recipe perfect for any meal. Made with beaten eggs and optionally filled with cheese, vegetables, or meats.">
   <meta property="og:image" content="https://Dusha2.github.io/recipe_page/assets/omelette.webp">
+  <meta property="og:site_name" content="My recipe">
+  <meta property="og:locale" content="en_US">
 
   <!-- Google fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap"
+    rel="stylesheet">
 
   <!-- Favicon and Styles -->
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon.png">
@@ -27,6 +32,7 @@
   <link rel="stylesheet" href="./styles/recipe.css">
 
 </head>
+
 <body>
   <main class="recipe">
     <article class="recipe-card flex-column-sections">
@@ -34,12 +40,13 @@
         <img src="./assets/omelette.webp" alt="Freshly prepared omelet on a plate" class="recipe-head-img">
         <hgroup class="flex-column-title">
           <h1 class="recipe-head-title">Simple Omelette Recipe</h1>
-          <p>An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked to perfection,
-          optionally filled with your choice of cheese, vegetables, or meats.</p>
+          <p>An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked to
+            perfection,
+            optionally filled with your choice of cheese, vegetables, or meats.</p>
         </hgroup>
       </header>
 
-      <section class="preparation" aria-label="">
+      <section class="preparation">
         <h2 class="preparation-title">Preparation time</h2>
         <ul class="flex-column-list">
           <li class="preparation-item list-item-сircle"><strong>Total:</strong> Approximately 10 minutes</li>
@@ -47,7 +54,7 @@
           <li class="preparation-item list-item-сircle"><strong>Cooking:</strong> 5 minutes</li>
         </ul>
       </section>
-      
+
       <section class="flex-column-title">
         <h2 class="brown-title">Ingredients</h2>
         <ul class="flex-column-list">
@@ -55,30 +62,35 @@
           <li class="ingredients-item list-item-сircle">Salt, to taste</li>
           <li class="ingredients-item list-item-сircle">Pepper, to taste</li>
           <li class="ingredients-item list-item-сircle">1 tablespoon of butter or oil</li>
-          <li class="ingredients-item list-item-сircle">Optional fillings: cheese, diced vegetables, cooked meats, herbs</li>
+          <li class="ingredients-item list-item-сircle">Optional fillings: cheese, diced vegetables, cooked meats, herbs
+          </li>
         </ul>
       </section>
 
-      <hr>
+      <hr aria-hidden="true">
 
       <section class="flex-column-title">
         <h2 class="brown-title">Instructions</h2>
         <ol class="instructions-list flex-column-list">
           <li class="instructions-item">
-            <strong>Beat the eggs:</strong> In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. You can add a tablespoon of water or milk for a fluffy texture.
+            <strong>Beat the eggs:</strong> In a bowl, beat the eggs with a pinch of salt and pepper until they are well
+            mixed. You can add a tablespoon of water or milk for a fluffier texture.
           </li>
           <li class="instructions-item">
             <strong>Heat the pan:</strong> Place a non-stick frying pan over medium heat and add butter or oil.
           </li>
           <li class="instructions-item">
-            <strong>Cook the omelette:</strong> Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure the eggs evenly coat the surface.
+            <strong>Cook the omelette:</strong> Once the butter is melted and bubbling, pour in the eggs. Tilt the pan
+            to ensure the eggs evenly coat the surface.
           </li>
           <li class="instructions-item">
-            <strong>Add fillings (optional):</strong> When the eggs begin to set at the edges but are still slightly runny in the middle, sprinkle your chosen fillings over
+            <strong>Add fillings (optional):</strong> When the eggs begin to set at the edges but are still slightly
+            runny in the middle, sprinkle your chosen fillings over
             one half of the omelette.
           </li>
           <li class="instructions-item">
-            <strong>Fold and serve:</strong> As the omelette continues to cook, carefully lift one edge and fold it over the fillings. Let it cook for another
+            <strong>Fold and serve:</strong> As the omelette continues to cook, carefully lift one edge and fold it over
+            the fillings. Let it cook for another
             minute, then slide it onto a plate.
           </li>
           <li class="instructions-item">
@@ -87,31 +99,33 @@
         </ol>
       </section>
 
-      <hr>
+      <hr aria-hidden="true">
 
       <section class="flex-column-title">
         <h2 class="brown-title">Nutrition</h2>
         <p>The table below shows nutritional values per serving without the additional fillings.</p>
         <table>
-            <tr>
-              <th scope="row">Calories</th>
-              <td>277kcal</td>
-            </tr>
-            <tr>
-              <th scope="row">Carbs</th>
-              <td>0g</td>
-            </tr>
-            <tr>
-              <th scope="row">Protein</th>
-              <td>20g</td>
-            </tr>
-            <tr>
-              <th scope="row">Fat</th>
-              <td>22g</td>
-            </tr>
+          <caption class="sr-only">Nutritional values per serving</caption>
+          <tr>
+            <th scope="row">Calories</th>
+            <td>277kcal</td>
+          </tr>
+          <tr>
+            <th scope="row">Carbs</th>
+            <td>0g</td>
+          </tr>
+          <tr>
+            <th scope="row">Protein</th>
+            <td>20g</td>
+          </tr>
+          <tr>
+            <th scope="row">Fat</th>
+            <td>22g</td>
+          </tr>
         </table>
       </section>
     </article>
   </main>
 </body>
+
 </html>
